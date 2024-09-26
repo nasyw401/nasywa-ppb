@@ -186,7 +186,7 @@ class _MyDatatableState extends State<MyDatatable> with RestorationMixin {
 
               columns: [
                 DataColumn(
-                  label: const Text('Stok Jajanan'),
+                  label: const Text('Nama Jajanan'),
                   onSort: (int columnIndex, bool ascending) =>
                       _sort<String>((d) => d.name, columnIndex, ascending),
                 ),
